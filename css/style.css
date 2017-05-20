@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200);
+html{
+    height:100%;
+    font-family: 'Poiret One', sans-serif;    
+}
+body{
+    min-width:1250px;
+    background:url("../img/bg_(2).jpg");
+    background-size:100% 100%;
+    margin:0;
+    padding:0;    
+}
+header{
+    display:block;
+    width:80%;
+    margin:0 auto;
+    height:100px;
+    padding:0 25px 0 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#isf_logo{
+    display:block;
+    float:left;
+    height:100px;
+}
+#juet_logo{
+    display:block;
+    float:right;
+    height:100px;
+}
+#title{
+    width:100%;
+    text-align:center;
+    text-decoration:underline;
+    color:lime;
+    font-family: 'Poiret One', sans-serif;
+}
+#container{
+    width:80%;
+    height: 400px;
+    margin:0 auto;
+    background:rgb(0,0,0);
+    background:rgba(0,0,0,0.5);
+}
+#left_bar{
+    display: table;
+    width: 24%;
+    height:100%;
+    float:left;
+}
+#left_bar .content{
+    width:100%;
+    display:table-cell;
+    overflow:auto;
+    vertical-align: middle;
+}
+.bar{
+    font-family: 'Poiret One', sans-serif;
+    height: 35px;
+    width:100%;
+    font-size: 30px;
+    color:white;
+    background:rgba(255,255,255,0.2);
+    margin:5px 0 5px 0;
+}
+#right_bar{
+    width:74%;
+    height:100%;
+    overflow: auto;
+    float: right;    
+    color:#99FF99;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
+#right_bar .content{
+    display:table-cell;
+    width:100%;
+    vertical-align: middle;
+    font-family: 'Source Code Pro' ;
+}
+#right_bar .content #left{
+    width:50%;
+    float:left;
+}
+#right_bar .content #right{
+    width:50%;
+    text-align:right;
+    float:right;
+}
+#right_bar .content a{
+    color:#99FF99;
+}
+.slide{
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+#right_bar h2{
+    color:#E6B800;
+    font-weight:bold;
+    text-decoration: underline;
+}
+#right_bar h3{
+    color:#FF6666;
+}
+#right_bar input,#right_bar select,#message input{
+    background:none;
+    border:none;
+    border-bottom:1px solid rgba(255,255,255,0.5);
+    color:#33CCFF;
+    font-size: 20px;
+    min-width:300px;
+}
+#right_bar input:focus,#right_bar select:focus,#message input:focus{
+    outline: none;
+}
+#right_bar input[type="submit"],#message input[type="submit"]{
+    background:rgba(0,0,0,0.5);
+    color:white;
+    border:none;
+}
+#right_bar table{
+    line-height: 2px;
+}
+/*****Register*******/
+#message{
+    font-size:50px;
+    text-align:center;
+    padding: 125px 0 0 0;
+}
+#message a{
+    color:#99FF99;
+}
+footer{
+    width:40%;
+    float:right;
+    margin: 30px 0 0 0;
+    padding: 0 0 0 10%;
+    background:rgba(255,204,0,0.3);
+    display:table;
+    border-color:white transparent transparent transparent;
+    border:20px;
+}
+footer p{
+    color:white;
+    font-size: 20px;
+}
+footer a{
+    text-decoration:none;
+    color:#99CCFF;
+    font-weight:bold;
+}
